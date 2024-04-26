@@ -1,0 +1,33 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+/* Add some content at the bottom of the video/page */
+.content {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 100%;
+    min-height: 100%;
+    background: rgba(0, 0, 0, 0.05);
+
+    justify-content: center;
+    display: flex;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    margin: auto;  /* Magic! */
+    font-size: 42pt;
+}
+
+img {
+    margin: auto;  /* Magic! */
+}    
